@@ -7,9 +7,9 @@ namespace TowerInnCafeCatering.Models
     {
         public List<TakeOutTray> TakeOutTrays => new List<TakeOutTray>
         {
-            new TakeOutTray { Name = "Beef and Pasta", Description = "Ritz Dijon Chicken, BBQ Chicken, Chicken Piccata, your choice of two pastas, and fresh baked bread.", Price = 10M, Image = ""},
-            new TakeOutTray { Name = "Fish and Beef", Description = "Ritz Dijon Chicken, BBQ Chicken, Chicken Piccata, your choice of two pastas, and fresh baked bread.", Price = 10M, Image = ""},
-            new TakeOutTray { Name = "Beef and Fish", Description = "Ritz Dijon Chicken, BBQ Chicken, Chicken Piccata, your choice of two pastas, and fresh baked bread.", Price = 10M, Image = ""},
+            new TakeOutTray { Name = "Beef and Pasta", Description = "Ritz Dijon Chicken, BBQ Chicken, Chicken Piccata, your choice of two pastas, and fresh baked bread.", PriceHalf = 10M, PriceFull = 7M, Image = ""},
+            new TakeOutTray { Name = "Fish and Beef", Description = "Ritz Dijon Chicken, BBQ Chicken, Chicken Piccata, your choice of two pastas, and fresh baked bread.", PriceHalf = 10M, PriceFull = 7M, Image = ""},
+            new TakeOutTray { Name = "Beef and Fish", Description = "Ritz Dijon Chicken, BBQ Chicken, Chicken Piccata, your choice of two pastas, and fresh baked bread.", PriceHalf = 10M, PriceFull = 7M, Image = ""},
 
         };
     }
