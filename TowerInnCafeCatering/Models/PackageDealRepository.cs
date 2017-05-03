@@ -14,7 +14,7 @@ namespace TowerInnCafeCatering.Models
             new PackageDeal { Name = "Pizza and Pasta Buffet", Description = "Your choice of Gourmet Pizzas, Pastas with Sauce, Fresh Baked Breadsticks, and Cinnamon Sugar Twists.", Price = 9M,Image =""},
             new PackageDeal { Name = "The Exquisite Package", Description = "Your choice of two Appetizer Trays*, Choice of Chicken, Chef Carved Prime Rib, Choice of Pastas with Sauce, Rosemary Roasted Potatoes, Roasted Vegetables, and Fresh Baked Breadsticks", Price = 22M,Image =""},
             new PackageDeal { Name = "Outdoor Kebob Package", Description = "Grilled Fresh Beef Kebob,Chicken Kebob,Vegetable Kebob with a Buffet of Pasta with Sauce, Vegetable Medley, Garben Salad, and Fresh Baked Bread.", Price = 19m, Image = "~/images/banner2.jpg"},
-            new PackageDeal { Name = "Custom Tower Inn’s Menu", Description = "Our Chef Will work with you to design a Menu", Price = #if, Image = \"~/images/banner2.jpg\"},
+            new PackageDeal { Name = "Custom Tower Inn’s Menu", Description = "Our Chef Will work with you to design a Menu", Image = "~/images/banner2.jpg"},
         };
     }
 }
