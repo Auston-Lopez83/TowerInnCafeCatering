@@ -1,0 +1,25 @@
+﻿@model List<TowerInnCafeCatering.Models.PackageDeal>
+@{
+    ViewData["Title"] = "Package Deals";
+}
+<h1>Package Deals</h1>
+<p>Stuff to come</p>
+<hr class="divider">
+
+@foreach (var p in Model) {
+	<div class="panel panel-default">
+		<div class="panel-heading">
+	    <h3 class="panel-title">@p.Name: $@p.Price.ToString("N2")</h3>
+		</div>
+		<div class="panel-body">
+	    	<div class="media">
+			<a class="pull-left">
+				<img class="media-object" src="@Url.Content(p.Image)" height="120">
+			</a>
+			<div class="media-body">
+				<p>@p.Description</p>
+			</div>
+		</div>
+		</div>
+	</div>
+}
