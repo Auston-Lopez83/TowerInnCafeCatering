@@ -9,7 +9,7 @@
 @foreach (var p in Model) {
 <div class="panel panel-default">
 	<div class="panel-heading">
-    <h3 class="panel-title">@p.Name: $@p.Price.ToString("N2")</h3>
+    <h3 class="panel-title">@p.Name: Half Tray $@p.PriceHalf.ToString("N2"), Full Tray$@p.PriceFull.ToString("N2")</h3>
 	</div>
 	<div class="panel-body">
     	<div class="media">
