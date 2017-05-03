@@ -1,7 +1,15 @@
 ﻿<Properties StartupConfiguration="{3885EE66-F94A-4E3D-B6DC-BC03EE6D1D69}|Default">
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="TowerInnCafeCatering/Models/TakeOutTrayRepository.cs">
     <Files>
       <File FileName="TowerInnCafeCatering/Models/TakeOutTrayRepository.cs" Line="11" Column="52" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="TowerInnCafeCatering/Views/TakeOutTray/List.cshtml">
+    <Files>
+      <File FileName="TowerInnCafeCatering/Models/TakeOutTrayRepository.cs" Line="1" Column="1" />
+      <File FileName="TowerInnCafeCatering/Models/TakeOutTray.cs" Line="8" Column="46" />
+      <File FileName="TowerInnCafeCatering/Views/TakeOutTray/List.cshtml" Line="12" Column="47" />
+>>>>>>> master
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TowerInnCafeCatering PreferredExecutionTarget="MonoDevelop.Default" />
