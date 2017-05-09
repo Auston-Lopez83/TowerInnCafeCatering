@@ -16,10 +16,12 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Views\PackageDeal\" />
     <Folder Include="wwwroot\images\foodImg\" />
     <Folder Include="Views\TakeOutTray\" />
     <Folder Include="Views\CreateYourOwnCatering\" />
+    <Folder Include="Repositorys\" />
+    <Folder Include="Views\Menu\" />
+    <Folder Include="Views\PackageDeal\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Models\PackageDeals %28copy%29.cs" />
